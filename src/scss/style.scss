@@ -1,15 +1,3 @@
-html{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.header {
-  height: 7rem;
-  width: 59rem;
-  background-color: rgb(194, 157, 255); 
-  position: absolute;
-}
 
 body {
   background-image: linear-gradient(
@@ -17,7 +5,7 @@ body {
       rgba(104, 155, 202, 0.5),
       rgba(243, 142, 226, 0.5)
     ),
-url("/CherryBlossom.jpg");
+url("/dist/css/img/CherryBlossom.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -27,6 +15,10 @@ div {
   text-transform: uppercase;
 }
 h1{
-font-size: 6rem;
-font-family: cursive
+  font-family: "Courier New", Courier, monospace;
+  font-size: 21px;
+  letter-spacing: -2px;
+  word-spacing: -1px;
+  color: rgb(111, 0, 255);
 }
+

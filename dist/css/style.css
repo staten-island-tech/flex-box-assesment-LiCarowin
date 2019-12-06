@@ -1,20 +1,6 @@
-html {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.header {
-  height: 7rem;
-  width: 59rem;
-  background-color: #c29dff;
-  position: absolute;
-}
-
 body {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 155, 202, 0.5)), to(rgba(243, 142, 226, 0.5))), url("/CherryBlossom.jpg");
-  background-image: linear-gradient(to right bottom, rgba(104, 155, 202, 0.5), rgba(243, 142, 226, 0.5)), url("/CherryBlossom.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 155, 202, 0.5)), to(rgba(243, 142, 226, 0.5))), url("/dist/css/img/CherryBlossom.jpg");
+  background-image: linear-gradient(to right bottom, rgba(104, 155, 202, 0.5), rgba(243, 142, 226, 0.5)), url("/dist/css/img/CherryBlossom.jpg");
   background-size: cover;
   background-position: center;
 }
