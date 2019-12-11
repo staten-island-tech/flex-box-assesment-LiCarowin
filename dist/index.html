@@ -15,8 +15,8 @@
 </div>
 
 <div class="flex-container">
-  <div>1</div>
-  <div>2</div>
+  <div>Flexbox</div>
+  <div>Stuffs</div>
 
   <style>
     .flex-container {
@@ -24,7 +24,6 @@
       height: 50%;
       display: flex;
       flex-wrap: nowrap;
-      justify-content: flex-start;
       align-items: center;
       justify-content: space-around;
     
@@ -41,13 +40,34 @@
       align-items: center;
     }   
 
-    .flex-container {
+  </style>    
+</div>
+
+<div class="flex-container-two">
+  <div>Flexbox</div>
+  <div>Stuffs</div>
+
+  <style>
+    .flex-container-two {
       background-color: white;
       height: 50%;
       display: flex;
       flex-wrap: nowrap;
-
+      align-items: center;
+      justify-content: space-around;
+    
     }
+    
+    .flex-container-two > div {
+      background-color: #c18bff;
+      width: 40%;
+      padding: 20px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+      justify-content: center;
+      align-items: center;
+    }   
+
   </style>    
 </div>
-
