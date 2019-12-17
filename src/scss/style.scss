@@ -2,17 +2,14 @@
 body {
   background-image: linear-gradient(
       to right bottom,
-      rgba(104, 155, 202, 0.5),
-      rgba(243, 142, 226, 0.5)
+      rgb(236, 235, 182),
+      rgba(167, 238, 220, 0.5)
     ),
-url("/dist/css/img/CherryBlossom.jpg");
-  background-size: cover;
-  background-position: center;
 }
 div {
-  height: 10rem;
+  align-items: center;
   text-align: center;
-  text-transform: uppercase;
+  justify-content: space-evenly;
 }
 
 h1{
@@ -20,5 +17,15 @@ h1{
   font-size: 21px;
   letter-spacing: -2px;
   word-spacing: -1px;
-  color: rgb(111, 0, 255);
+  text-transform: uppercase;
+  color: rgb(6, 83, 250);
+}
+
+h2{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 5rem;
+  letter-spacing: 50px;
+  word-spacing: -1px;
+  text-transform: uppercase;
+  color: rgb(4, 121, 19);
 }

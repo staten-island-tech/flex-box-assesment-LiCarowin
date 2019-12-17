@@ -1,8 +1,5 @@
 body {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 155, 202, 0.5)), to(rgba(243, 142, 226, 0.5))), url("/dist/css/img/CherryBlossom.jpg");
-  background-image: linear-gradient(to right bottom, rgba(104, 155, 202, 0.5), rgba(243, 142, 226, 0.5)), url("/dist/css/img/CherryBlossom.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: linear-gradient(to right bottom,rgb(236, 235, 182),rgba(167,238, 220, 0.5));
 }
 
 div {
